@@ -41,8 +41,13 @@ window.layout = function () {
 
 
     if (completecount >= 1) {
-        $('.cs-app').waitForImages(()=>{
+        $('.cs-app').waitForImages(() => {
             $('.cs-load').css('display', 'none');
+            
+            // Lockdown
+            if (launcher.lockdown) {
+                $('.cs-lockdown').css('display', 'flex')
+            }
         })
     }
 
