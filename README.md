@@ -1,4 +1,5 @@
 Cosmic Systems - Content Delivery Network
+
 [![](https://data.jsdelivr.com/v1/package/gh/WhitigolProd/cdn/badge)](#)
 ==========
 
