@@ -1,6 +1,6 @@
 /* Launcher Config */
 launcher = {
-    lockdown: false, //! ⚠ Locks Down Entire Launcher ⚠ !//
+    lockdown: true, //! ⚠ Locks Down Entire Launcher ⚠ !//
 
     background: {
         //! App Background Color is now per user settings!
