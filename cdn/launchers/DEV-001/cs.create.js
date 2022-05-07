@@ -44,6 +44,9 @@ window.layout = function () {
         $('.cs-app').waitForImages(() => {
             $('.cs-load').css('display', 'none');
             layoutcomplete = true;
+            $('.js-scripts').remove();
+
+            console.log('%cLayout Complete', 'color: lime');
             
             // Lockdown
             if (launcher.lockdown) {
