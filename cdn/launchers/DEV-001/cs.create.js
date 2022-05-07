@@ -43,6 +43,7 @@ window.layout = function () {
     if (completecount >= 1) {
         $('.cs-app').waitForImages(() => {
             $('.cs-load').css('display', 'none');
+            layoutcomplete = true;
             
             // Lockdown
             if (launcher.lockdown) {
